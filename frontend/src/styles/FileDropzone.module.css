@@ -1,0 +1,105 @@
+.wrapper {
+  width: 100%;
+}
+.dropzone {
+  border: 2px dashed #27272a;
+  border-radius: 12px;
+  background-color: #09090b;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.dropzone:hover {
+  background-color: #121214;
+  border-color: #3f3f46;
+}
+.dragOver {
+  border-color: #fafafa;
+  background-color: #18181b;
+}
+.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.hiddenInput {
+  display: none;
+}
+.iconCircle {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #18181b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.uploadIcon {
+  font-size: 1.5rem;
+  color: #a1a1aa;
+}
+.title {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fafafa;
+  margin-bottom: 0.5rem;
+}
+.subtitle {
+  font-size: 0.85rem;
+  color: #71717a;
+  max-width: 300px;
+}
+.fileCard {
+  border: 1px solid #27272a;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #09090b;
+}
+.fileCardInner {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.fileIcon {
+  font-size: 1.5rem;
+  color: #3b82f6;
+}
+.fileDetails {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.fileName {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #fafafa;
+}
+.fileSize {
+  font-size: 0.75rem;
+  color: #71717a;
+}
+.successIcon {
+  color: #10b981;
+  font-size: 1.25rem;
+}
+.removeBtn {
+  background: transparent;
+  border: none;
+  color: #71717a;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+.removeBtn:hover {
+  background-color: #27272a;
+  color: #ef4444;
+}

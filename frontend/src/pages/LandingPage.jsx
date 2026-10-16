@@ -1,0 +1,17 @@
+import styles from '../styles/shared.module.css';
+import{ Link } from 'react-router-dom';
+
+export default function LandingPage(){
+  return(
+    <div className={styles.container}>
+      <div className={styles.hero}>
+        <h1 className={styles.title}>Welcome to Paper Vault</h1>
+                
+        <div className={styles.actions}>
+          <Link to="/register" className={styles.primaryBtn}>Get Started</Link>
+          <Link to="/login" className={styles.secondaryBtn}>Sign In</Link>
+        </div>
+      </div>
+    </div>
+  );
+}
